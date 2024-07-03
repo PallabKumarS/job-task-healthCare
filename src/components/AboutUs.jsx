@@ -3,8 +3,8 @@ import banner2 from "../assets/Rectangle 24.png";
 
 const AboutUs = () => {
   return (
-    <section className="mx-4 lg:mx-48 lg:flex gap-10 justify-between items-center mb-32">
-      {/* first card  */}
+    <div className="mx-4 lg:mx-48 lg:flex justify-between items-center mb-48">
+
       <div className="mb-3">
         <p className="border px-6 py-3 rounded-3xl max-w-[140px] text-blue-950 border-blue-800 mb-5">
           Who we are
@@ -20,14 +20,13 @@ const AboutUs = () => {
           patient with dignity, respect, and empathy, ensuring that they receive
           the attention and care they deserve.
         </p>
-        <button className="text-black font-bold border border-yellow-500 bg-yellow-500 px-6 py-3 flex gap-2 items-center rounded-xl">
+        <button className="text-black font-medium border border-yellow-500 bg-yellow-500 px-6 py-3 flex gap-2 items-center rounded-xl">
           Learn more <MdArrowOutward />
         </button>
       </div>
 
-      {/* second card  */}
       <div className="relative">
-        <img src={banner2} className="w-full h-[320px]" alt="about us" />
+        <img src={banner2} className="w-[768px] h-[515px]" alt="about us" />
         <div className="absolute bottom-0 left-0 bg-[#343268] px-6 py-7 w-96 h-48 rounded-3xl -translate-x-1/2 translate-y-1/4">
           <h4 className="text-xl font-medium text-white mb-4">
             Our mission is simple
@@ -38,7 +37,7 @@ const AboutUs = () => {
           </p>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

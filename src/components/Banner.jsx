@@ -5,15 +5,15 @@ const Banner = () => {
   return (
     <section className="mx-4 relative my-24">
       <div className="">
-        {/* <div className="">
+        {/* <div className="flex">
           <img src={bannerBG} className="w-full" alt="banner" />
         </div>
         <div className="">
           <img src={bannerBG} className="w-full " alt="banner" />
         </div> */}
-        <div className=" lg:mx-48">
-          <img src={banner} className="w-full mb-8" alt="banner" />
-        </div>
+      </div>
+      <div className=" lg:mx-48">
+        <img src={banner} className="w-full mb-8" alt="banner" />
       </div>
     </section>
   );

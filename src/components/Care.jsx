@@ -5,13 +5,14 @@ import coin from "../assets/coin.png";
 import user1 from "../assets/image_user1.png";
 import user2 from "../assets/image_user2.png";
 import user3 from "../assets/image_user3.png";
+import user4 from "../assets/image_user4.png";
 import { FaStar } from "react-icons/fa";
 
 const Care = () => {
   return (
-    <section className="mx-4 lg:mx-48 mb-24 2xl:flex gap-4 max-h-[370px] justify-around items-center">
+    <div className="mx-4 lg:mx-48 mb-24 2xl:flex gap-4 max-h-[370px] items-center">
       {/* first column  */}
-      <div className="px-5 text-[#FBFBFB] shadow-xl rounded-2xl border-2 pb-4">
+      <div className="px-5 text-[#FBFBFB] shadow-xl rounded-2xl border-2 pb-4 w-[350px]">
         <p className="text-black text-5xl font-bold mb-2 mt-4">90%</p>
         <p className="text-black text-sm mb-4 max-w-40">
           Patient satisfaction rate, reflecting our commitment.
@@ -49,6 +50,7 @@ const Care = () => {
               <img src={user1} className="w-8 rounded-full" alt="contract" />
               <img src={user2} className="w-8 rounded-full" alt="contract" />
               <img src={user3} className="w-8 rounded-full" alt="contract" />
+              <img src={user4} className="w-8 rounded-full" alt="contract" />
             </div>
           </div>
 
@@ -66,14 +68,14 @@ const Care = () => {
       </div>
 
       {/* third column */}
-      <div className="px-5 text-[#FBFBFB] shadow-xl rounded-2xl border-2 pb-4 min-w-52">
+      <div className="px-5 text-[#FBFBFB] shadow-xl rounded-2xl border-2 py-4 w-[350px]">
         <p className="text-black text-5xl font-bold mb-2 mt-4">50+</p>
         <p className="text-black text-sm mb-4">
           Free lesion video for patient.
         </p>
         <img src={video} className="w-40 mx-auto" alt="pie chart" />
       </div>
-    </section>
+    </div>
   );
 };
 

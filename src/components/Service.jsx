@@ -5,7 +5,7 @@ import banner5 from "../assets/Rectangle 27.png";
 
 const Service = () => {
   return (
-    <div className="bg-[#FBFBFB] mx-4 lg:mx-48 mb-24 mt-32">
+    <div className="bg-[#FBFBFB] mx-4 lg:mx-48 mb-40">
       <section className=" lg:flex gap-10 justify-between items-center mb-20">
         {/* first card  */}
         <div className="mb-10">
@@ -29,16 +29,16 @@ const Service = () => {
         <div className="relative">
           <img
             src={banner3}
-            className="w-full h-[360px] rounded-2xl"
+            className="w-[745px] h-[515px] rounded-2xl"
             alt="about us"
           />
           <div className="absolute bottom-0 left-0 bg-[#343268] px-4 py-5 w-96 rounded-3xl translate-x-5 -translate-y-1/4 opacity-90 h-fit">
-            <h4 className="text-xl font-medium text-white mb-4">
+            <h4 className="text-xl font-semibold text-white mb-4">
               Advanced Technology
             </h4>
 
             <div className="flex justify-between items-center">
-              <p className="text-white text-sm mb-4">
+              <p className="text-white text-xs mb-4">
                 Our surgeons are trained in the latest robotic surgical
                 techniques, which allow for greater precision.
               </p>
@@ -56,16 +56,16 @@ const Service = () => {
         <div className="relative">
           <img
             src={banner4}
-            className="w-full h-[360px] rounded-2xl"
+            className="w-[768px] h-[515px] rounded-2xl"
             alt="about us"
           />
           <div className="absolute bottom-0 left-0 bg-[#343268] px-4 py-5 w-96 rounded-3xl translate-x-5 -translate-y-1/4 opacity-90 h-fit">
-            <h4 className="text-xl font-medium text-white mb-4">
+            <h4 className="text-xl font-semibold text-white mb-4">
               Online Doctor Meet
             </h4>
 
             <div className="flex justify-between items-center">
-              <p className="text-white text-sm mb-4">
+              <p className="text-white text-xs mb-4">
                 Our surgeons are trained in the latest robotic surgical
                 techniques, which allow for greater precision
               </p>
@@ -80,16 +80,16 @@ const Service = () => {
         <div className="relative">
           <img
             src={banner5}
-            className="w-full h-[360px] rounded-2xl"
+            className="w-[768px] h-[515px] rounded-2xl"
             alt="about us"
           />
           <div className="absolute bottom-0 left-0 bg-[#343268] px-4 py-5 w-96 rounded-3xl translate-x-5 -translate-y-1/4 opacity-90 h-fit">
-            <h4 className="text-xl font-medium text-white mb-4">
+            <h4 className="text-xl font-semibold text-white mb-4">
               Consultancy your health
             </h4>
 
             <div className="flex justify-between items-center">
-              <p className="text-white text-sm mb-4">
+              <p className="text-white text-xs mb-4">
                 Our surgeons are trained in the latest robotic surgical
                 techniques, which allow for greater precision.
               </p>
