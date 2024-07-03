@@ -9,11 +9,11 @@ import { FaStar } from "react-icons/fa";
 
 const Care = () => {
   return (
-    <section className="mx-4 lg:mx-48 mb-8 2xl:flex gap-4 max-h-[370px]">
+    <section className="mx-4 lg:mx-48 mb-24 2xl:flex gap-4 max-h-[370px] justify-around items-center">
       {/* first column  */}
-      <div className="px-5 text-[#FBFBFB] shadow-xl rounded-xl border-2 pb-4">
-        <p className="text-black text-6xl font-bold mb-2 mt-4">90%</p>
-        <p className="text-black text-sm mb-4">
+      <div className="px-5 text-[#FBFBFB] shadow-xl rounded-2xl border-2 pb-4">
+        <p className="text-black text-5xl font-bold mb-2 mt-4">90%</p>
+        <p className="text-black text-sm mb-4 max-w-40">
           Patient satisfaction rate, reflecting our commitment.
         </p>
         <img src={pieChart} className="w-40 mx-auto" alt="pie chart" />
@@ -22,13 +22,13 @@ const Care = () => {
       {/* second column */}
       <div className="mx-auto mb-8">
         {/* title here  */}
-        <h2 className="text-black text-6xl font-bold mx-auto text-center mb-4 my-4 max-w-[660px] lg:w-auto">
+        <h2 className="text-black text-5xl font-bold mx-auto text-center mb-4 my-4 max-w-[660px] lg:w-auto">
           Comprehensive Care For Every Patient
         </h2>
-        <div className="md:flex gap-8 px-auto">
+        <div className="md:flex gap-8 px-auto justify-around">
           {/* 1st card  */}
-          <div className="bg-[#FFFFF5] rounded-xl border-2 px-5 py-2 min-w-52 mx-auto">
-            <p className="text-black text-6xl font-bold mb-2 mt-4">500+</p>
+          <div className="bg-[#FFFFF5] rounded-2xl border-2 px-5 py-2 min-w-52 mx-auto">
+            <p className="text-black text-5xl font-bold mb-2 mt-4">500+</p>
             <p className="text-black text-sm mb-4 text-start">
               Board-certified doctors
             </p>
@@ -38,8 +38,8 @@ const Care = () => {
           </div>
 
           {/* second card  */}
-          <div className="bg-[#FBFBFB] rounded-xl border-2 px-5 py-2 h-fit mt-auto min-w-52 mx-auto">
-            <p className="text-black text-6xl font-bold mb-2 mt-4 flex gap-2 items-center">
+          <div className="bg-[#FBFBFB] rounded-2xl border-2 px-5 py-2 h-fit mt-auto min-w-52 mx-auto">
+            <p className="text-black text-5xl font-bold mb-2 mt-4 flex gap-2 items-center">
               4.8 <FaStar className="text-yellow-400" />
             </p>
             <p className="text-black text-sm mb-4 text-start">
@@ -53,8 +53,8 @@ const Care = () => {
           </div>
 
           {/* third card  */}
-          <div className="bg-[#FFFFF5] rounded-xl border-2 px-5 py-2 min-w-52 mx-auto">
-            <p className="text-black text-6xl font-bold mb-2 mt-4">$5000</p>
+          <div className="bg-[#FFFFF5] rounded-2xl border-2 px-5 py-2 min-w-52 mx-auto">
+            <p className="text-black text-5xl font-bold mb-2 mt-4">$5000</p>
             <p className="text-black text-sm mb-4 text-start">
               Money spend for poor patient
             </p>
@@ -66,8 +66,8 @@ const Care = () => {
       </div>
 
       {/* third column */}
-      <div className="px-5 text-[#FBFBFB] shadow-xl rounded-xl border-2 pb-4 min-w-52">
-        <p className="text-black text-6xl font-bold mb-2 mt-4">50+</p>
+      <div className="px-5 text-[#FBFBFB] shadow-xl rounded-2xl border-2 pb-4 min-w-52">
+        <p className="text-black text-5xl font-bold mb-2 mt-4">50+</p>
         <p className="text-black text-sm mb-4">
           Free lesion video for patient.
         </p>
