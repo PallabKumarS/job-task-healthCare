@@ -13,7 +13,7 @@ const NavBar = () => {
   );
 
   return (
-    <div className="navbar sticky top-0 z-[100] py-3">
+    <div className=" navbar sticky top-0 z-[100] pt-8 lg:px-48">
       <div className="justify-start flex-1">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
